@@ -27,7 +27,8 @@ public class EstadoPersecucion : MonoBehaviour {
             maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoAlerta);
             return;
         }else{
-            maquinaDeEstados.EstadoAtaque.enabled = true;
+            maquinaDeEstados.ActivarEstado(maquinaDeEstados.EstadoAtaque);
+            // maquinaDeEstados.EstadoAtaque.enabled = true;
         }
 
         controladorNavMesh.ActualizarPuntoDestinoNavMeshAgent();    
