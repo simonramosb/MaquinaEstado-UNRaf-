@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Diagrama de estados originales
 
-You can use the [editor on GitHub](https://github.com/simonramosb/MaquinaEstado-UNRaf-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[image](https://i.imgur.com/sTfmAmp.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Diagrama de estados + variación
 
-### Markdown
+[image](https://i.imgur.com/UBNABPe.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+El añadido a la máquina de estado original fue el de el estado de Ataque, aprovechando el script de Attack que proporcionaba el tutorial. El mismo se activa cuando dentro del estado de persecución el jugador está dentro del collider trigger del enemigo. También, para que no sea tan fácil, se agregó la curación progresiva del enemigo para cuando la vida de este está por debajo del 50%.
 
-```markdown
-Syntax highlighted code block
+[image](https://i.imgur.com/ftDUZWI.png)
 
-# Header 1
-## Header 2
-### Header 3
+Llamada del estado de ataque, dentro del estado persecución
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/simonramosb/MaquinaEstado-UNRaf-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
